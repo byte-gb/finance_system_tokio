@@ -1,9 +1,11 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import TransferForm from '@/components/TransferForm.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
+  <main class="container">
+    <div class="content">
+      <TransferForm />
+    </div>
   </main>
 </template>
