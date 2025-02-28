@@ -33,7 +33,13 @@
         </label>
         <label class="block">
           <span class="text-gray-700">Valor</span>
-          <input v-model="valor" type="number" class="input input-bordered w-full mt-1" required />
+          <input
+            v-model="valor"
+            type="number"
+            class="input input-bordered w-full mt-1"
+            step="0.01"
+            required
+          />
         </label>
 
         <button type="submit" class="btn btn-primary w-full">Agendar Transferência</button>
